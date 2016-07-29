@@ -42,6 +42,8 @@ feature 'User can sign up' do
 
 end
 
+#the sign in part of this should be extracted to a helper module
+
 feature 'User can sign in' do
   let!(:user) do
     User.create(email: 'user@example.com', password: 'secret1234', password_confirmation: 'secret1234')
