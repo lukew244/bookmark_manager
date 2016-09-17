@@ -1,4 +1,6 @@
-# Bookmark Manager Readme
+# Bookmark Manager
+
+A simple bookmark manager using Ruby/Sinatra/Postgres. 
 
 ## User Stories and Domain Models
 ```
